@@ -1,0 +1,272 @@
+
+
+body{
+  display: grid;
+  grid-template-columns: repeat(10);
+  grid-template-rows: repeat(11);
+  margin: 0;
+}
+
+nav{
+  grid-column: 1/11;
+  grid-row: 1/2;
+  padding: 1em 1em 1em 3em;
+  background: white;
+
+  img{
+    width: 25em;
+  }
+}
+
+
+header{
+  grid-column:1/11;
+  grid-row: 2/3;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  div.codeForCapeTown{
+    text-align: center;
+    color: white;
+    background: #00000080;
+    border-radius: 0.5em;
+    margin: 5em 8em 1em 8em;
+    padding: 7em;
+  }
+
+  div.StartCoding{
+    text-align: center;
+    margin: 4em 2em 8em 2em;
+
+    button{
+      width: 7em;
+      height: 2em;
+      color: white;
+      border: solid white 0.1em;
+      border-radius: 0.3em;
+      background: #00000000;
+      font-size: 3.5em;
+      padding: 0.5em 0.5em 1.6em 0.5em;
+    }
+  }
+
+}
+
+
+
+section.whoWeAre{
+  // background: green;
+  grid-column: 1/11;
+  grid-row: 3/4;
+
+  .text{
+    text-align: center;
+    padding: 4em;
+
+    p{
+      padding: 2em;
+    }
+  }
+
+    .pictures{
+      padding: 3em;
+      margin: 4em;
+      background: pink;
+
+
+    img{
+      width: 100%;
+      height: 30em;
+      padding-top: 2em;
+    }
+  }
+
+}
+
+section.icons{
+  grid-column: 1/11;
+  grid-row: 4/5;
+
+  .codingIcon{
+    padding: 4em 1em 1em 1em;
+
+    img{
+      width: 15em;
+    }
+  }
+
+  .coding{
+  text-align: center;
+  padding: 2em 10em 4em 10em;
+  }
+
+}
+
+
+section.portfolio{
+  background: #e38f84;
+  grid-column: 1/11;
+  grid-row: 5/6;
+  color: white;
+
+  .text{
+    text-align: center;
+    padding: 4em 7em 4em 7em;
+  }
+
+  .images{
+    padding: 2em;
+
+    img{
+      width: 100%;
+      height: 40em;
+      border: 4px solid white;
+    }
+
+    .bigImage{
+      padding: 2em 0 2em 0;
+      img{
+        width: 100%;
+        height: 30em;
+      }
+    }
+  }
+}
+
+section.meetOurTeam{
+  // background: skyblue;
+  grid-column: 1/11;
+  grid-row: 6/7;
+
+  .topText{
+    text-align: center;
+    padding: 2em;
+  }
+
+  .images{
+    padding: 4em 2em 4em 2em;
+
+    hr{
+      margin-right: 50%;
+      border: 0.1em solid #e38f84;
+    }
+
+    img{
+      width: 100%;
+    }
+  }
+}
+
+section.stats{
+  background: black;
+  grid-column: 1/11;
+  grid-row: 7/8;
+
+
+  .eachStat{
+    color: white;
+    text-align: center;
+    width: 50%;
+    float: left;
+    font-size: 2.7em;
+    h2{
+      margin: 1em 0 0.2em 0;
+    }
+    p{
+      margin: 0.5em 0 2em 0;
+    }
+  }
+}
+
+section.subscribeToUs{
+  grid-column: 1/11;
+  grid-row: 8/9;
+  text-align: center;
+  padding: 2em 2em 5em 2em;
+
+  p{
+    padding: 2em;
+  }
+
+  input{
+    height: 1em;
+    width: 10em;
+    padding: 0.5em;
+    font-size: 3.5em;
+    border: 0.1em solid grey;
+  }
+
+  button{
+    height: 2em;
+    width: 7em;
+    margin: 1em;
+    font-size: 3.5em;
+    background: #f44336;
+    border-radius: 0.2em;
+    color: white;
+    box-shadow: 0.2em 0.2em 0.8em black;
+  }
+
+}
+
+section.logoSlide{
+  background: black;
+  grid-column: 1/11;
+  grid-row: 9/10;
+  padding: 2em;
+
+  img{
+    width: 18.5em;
+    height: 10em;
+  }
+}
+
+section.contact{
+  background: pink;
+  grid-column: 1/11;
+  grid-row: 10/11;
+  padding: 1em;
+  font-size: 2em;
+  text-align: center;
+
+  .address{
+    text-align: center;
+    width: 50%;
+    float: left;
+  }
+
+  .company{
+    text-align: center;
+    width: 50%;
+    float: left;
+
+  }
+
+  .helpAndSupport{
+    text-align: center;
+    width: 50%;
+    float: left;
+  }
+
+  .instagramWidget{
+    text-align: center;
+    width: 50%;
+    float: left;
+  }
+}
+
+footer{
+  background: #E91E63;
+  grid-column: 1/11;
+  grid-row: 11/12;
+  color: white;
+  padding: 0 2em 0 2em;
+  font-size: 2.5em;
+
+  p{
+    float: left;
+    width: 50%;
+    margin: 1em 0 1em 0;
+  }
+}
