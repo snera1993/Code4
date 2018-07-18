@@ -1,185 +1,315 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 body {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(10);
-  grid-template-rows: repeat(11);
-  margin: 0; }
+  -ms-grid-columns: ()[10];
+      grid-template-columns: repeat(10);
+  -ms-grid-rows: ()[11];
+      grid-template-rows: repeat(11);
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 1em;
+}
 
 nav {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
   padding: 1em 1em 1em 3em;
-  background: white; }
-  nav img {
-    width: 25em; }
+  background: white;
+}
+
+nav img {
+  width: 25em;
+}
 
 header {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
   grid-row: 2/3;
   background-repeat: no-repeat;
-  background-size: cover; }
-  header div.codeForCapeTown {
-    text-align: center;
-    color: white;
-    background: #00000080;
-    border-radius: 0.5em;
-    margin: 5em 8em 1em 8em;
-    padding: 7em; }
-  header div.StartCoding {
-    text-align: center;
-    margin: 4em 2em 8em 2em; }
-    header div.StartCoding button {
-      width: 7em;
-      height: 2em;
-      color: white;
-      border: solid white 0.1em;
-      border-radius: 0.3em;
-      background: #00000000;
-      font-size: 3.5em;
-      padding: 0.5em 0.5em 1.6em 0.5em; }
+  background-size: cover;
+}
+
+header div.codeForCapeTown {
+  text-align: center;
+  color: white;
+  background: #00000080;
+  border-radius: 0.5em;
+  margin: 5em 8em 1em 8em;
+  padding: 7em;
+}
+
+header div.StartCoding {
+  text-align: center;
+  margin: 4em 2em 8em 2em;
+}
+
+header div.StartCoding button {
+  width: 7em;
+  height: 2em;
+  color: white;
+  border: solid white 0.1em;
+  border-radius: 0.3em;
+  background: #00000000;
+  font-size: 3.5em;
+  padding: 0.5em 0.5em 1.6em 0.5em;
+}
 
 section.whoWeAre {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
-  grid-row: 3/4; }
-  section.whoWeAre .text {
-    text-align: center;
-    padding: 4em; }
-    section.whoWeAre .text p {
-      padding: 2em; }
-  section.whoWeAre .pictures {
-    padding: 3em;
-    margin: 4em;
-    background: pink; }
-    section.whoWeAre .pictures img {
-      width: 100%;
-      height: 30em;
-      padding-top: 2em; }
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+}
+
+section.whoWeAre .text {
+  text-align: center;
+  padding: 4em;
+}
+
+section.whoWeAre .text p {
+  padding: 2em;
+}
+
+section.whoWeAre .pictures {
+  padding: 3em;
+  margin: 4em;
+  background: pink;
+}
+
+section.whoWeAre .pictures img {
+  width: 100%;
+  height: 30em;
+  padding-top: 2em;
+}
 
 section.icons {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
-  grid-row: 4/5; }
-  section.icons .codingIcon {
-    padding: 4em 1em 1em 1em; }
-    section.icons .codingIcon img {
-      width: 15em; }
-  section.icons .coding {
-    text-align: center;
-    padding: 2em 10em 4em 10em; }
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+}
+
+section.icons .codingIcon {
+  padding: 4em 1em 1em 1em;
+}
+
+section.icons .codingIcon img {
+  width: 15em;
+}
+
+section.icons .coding {
+  text-align: center;
+  padding: 2em 10em 4em 10em;
+}
 
 section.portfolio {
   background: #e38f84;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
   grid-row: 5/6;
-  color: white; }
-  section.portfolio .text {
-    text-align: center;
-    padding: 4em 7em 4em 7em; }
-  section.portfolio .images {
-    padding: 2em; }
-    section.portfolio .images img {
-      width: 100%;
-      height: 40em;
-      border: 4px solid white; }
-    section.portfolio .images .bigImage {
-      padding: 2em 0 2em 0; }
-      section.portfolio .images .bigImage img {
-        width: 100%;
-        height: 30em; }
+  color: white;
+}
+
+section.portfolio .text {
+  text-align: center;
+  padding: 4em 7em 4em 7em;
+}
+
+section.portfolio .images {
+  padding: 2em;
+}
+
+section.portfolio .images img {
+  width: 100%;
+  height: 40em;
+  border: 4px solid white;
+}
+
+section.portfolio .images .bigImage {
+  padding: 2em 0 2em 0;
+}
+
+section.portfolio .images .bigImage img {
+  width: 100%;
+  height: 30em;
+}
 
 section.meetOurTeam {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
-  grid-row: 6/7; }
-  section.meetOurTeam .topText {
-    text-align: center;
-    padding: 2em; }
-  section.meetOurTeam .images {
-    padding: 4em 2em 4em 2em; }
-    section.meetOurTeam .images hr {
-      margin-right: 50%;
-      border: 0.1em solid #e38f84; }
-    section.meetOurTeam .images img {
-      width: 100%; }
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  grid-row: 6/7;
+}
+
+section.meetOurTeam .topText {
+  text-align: center;
+  padding: 2em;
+}
+
+section.meetOurTeam .images {
+  padding: 4em 2em 4em 2em;
+}
+
+section.meetOurTeam .images hr {
+  margin-right: 50%;
+  border: 0.1em solid #e38f84;
+}
+
+section.meetOurTeam .images img {
+  width: 100%;
+}
 
 section.stats {
   background: black;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
-  grid-row: 7/8; }
-  section.stats .eachStat {
-    color: white;
-    text-align: center;
-    width: 50%;
-    float: left;
-    font-size: 2.7em; }
-    section.stats .eachStat h2 {
-      margin: 1em 0 0.2em 0; }
-    section.stats .eachStat p {
-      margin: 0.5em 0 2em 0; }
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  grid-row: 7/8;
+}
+
+section.stats .eachStat {
+  color: white;
+  text-align: center;
+  width: 50%;
+  float: left;
+  font-size: 2.7em;
+}
+
+section.stats .eachStat h2 {
+  margin: 1em 0 0.2em 0;
+}
+
+section.stats .eachStat p {
+  margin: 0.5em 0 2em 0;
+}
 
 section.subscribeToUs {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
   grid-row: 8/9;
   text-align: center;
-  padding: 2em 2em 5em 2em; }
-  section.subscribeToUs p {
-    padding: 2em; }
-  section.subscribeToUs input {
-    height: 1em;
-    width: 10em;
-    padding: 0.5em;
-    font-size: 3.5em;
-    border: 0.1em solid grey; }
-  section.subscribeToUs button {
-    height: 2em;
-    width: 7em;
-    margin: 1em;
-    font-size: 3.5em;
-    background: #f44336;
-    border-radius: 0.2em;
-    color: white;
-    box-shadow: 0.2em 0.2em 0.8em black; }
+  padding: 2em 2em 5em 2em;
+}
+
+section.subscribeToUs p {
+  padding: 2em;
+}
+
+section.subscribeToUs input {
+  height: 1em;
+  width: 10em;
+  padding: 0.5em;
+  font-size: 3.5em;
+  border: 0.1em solid grey;
+}
+
+section.subscribeToUs button {
+  height: 2em;
+  width: 7em;
+  margin: 1em;
+  font-size: 3.5em;
+  background: #f44336;
+  border-radius: 0.2em;
+  color: white;
+  -webkit-box-shadow: 0.2em 0.2em 0.8em black;
+          box-shadow: 0.2em 0.2em 0.8em black;
+}
 
 section.logoSlide {
   background: black;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 1;
   grid-row: 9/10;
-  padding: 2em; }
-  section.logoSlide img {
-    width: 18.5em;
-    height: 10em; }
+  padding: 2em;
+}
+
+section.logoSlide img {
+  width: 18.5em;
+  height: 10em;
+}
 
 section.contact {
   background: pink;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
+  -ms-grid-row: 10;
+  -ms-grid-row-span: 1;
   grid-row: 10/11;
   padding: 1em;
   font-size: 2em;
-  text-align: center; }
-  section.contact .address {
-    text-align: center;
-    width: 50%;
-    float: left; }
-  section.contact .company {
-    text-align: center;
-    width: 50%;
-    float: left; }
-  section.contact .helpAndSupport {
-    text-align: center;
-    width: 50%;
-    float: left; }
-  section.contact .instagramWidget {
-    text-align: center;
-    width: 50%;
-    float: left; }
+  text-align: center;
+}
+
+section.contact .address {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+section.contact .company {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+section.contact .helpAndSupport {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+section.contact .instagramWidget {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
 
 footer {
   background: #E91E63;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
   grid-column: 1/11;
+  -ms-grid-row: 11;
+  -ms-grid-row-span: 1;
   grid-row: 11/12;
   color: white;
   padding: 0 2em 0 2em;
-  font-size: 2.5em; }
-  footer p {
-    float: left;
-    width: 50%;
-    margin: 1em 0 1em 0; }
+  font-size: 2.5em;
+}
 
+footer p {
+  float: left;
+  width: 50%;
+  margin: 1em 0 1em 0;
+}
+
+footer img {
+  width: 2em;
+}
 /*# sourceMappingURL=index.css.map */

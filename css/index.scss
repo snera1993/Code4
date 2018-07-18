@@ -1,10 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
   display: grid;
   grid-template-columns: repeat(10);
   grid-template-rows: repeat(11);
   margin: 0;
+  font-family: "Roboto";
+  font-size: 1em;
 }
 
 nav{
@@ -268,5 +270,9 @@ footer{
     float: left;
     width: 50%;
     margin: 1em 0 1em 0;
+  }
+
+  img{
+    width: 2em;
   }
 }

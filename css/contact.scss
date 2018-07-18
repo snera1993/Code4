@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body{
+  display: grid;
+  grid-template-columns: repeat(10);
+  grid-template-rows: repeat(11);
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-family: 'Roboto';
+}
+
+nav{
+  grid-column: 1/11;
+  grid-row: 1/2;
+  padding: 1em 1em 1em 3em;
+  background: white;
+
+  .logo{
+    width: 40%;
+    float: left;
+    img{
+      width: 10em;
+    }
+  }
+
+  ul{
+    padding: 0.3em 0 0 0;
+    float: left;
+
+    li{
+     list-style-type: none;
+     display: inline-flex;
+     padding-right: 2em;
+   }
+  }
+
+  .SearchBar{
+    float: left;
+    margin: 1.2em 0 0 9em;
+
+    input{
+      border: 0.1em solid #ff000082;
+      border-radius: 0.2em 0 0 0.2em;
+      padding: 0.2em;
+      border-right: 0;
+    }
+  }
+
+  button{
+    margin-left: -0.29em;
+    background: #ff0000a1;
+    color: white;
+    border: none;
+    height: 1.745em;
+    border-radius:0 0.2em 0.2em 0;
+    width: 3em;
+  }
+
+}
+
+section.contactUs{
+  grid-column: 1/11;
+  background: #80808063;
+  padding: 3em;
+  text-align: center;
+
+  ul{
+
+    padding-left: 0;
+
+   li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 1em;
+  }
+
+}
+
+}
+
+section.SendUsAMessage{
+  padding: 1em 10em 1em 10em;
+
+  .SendUs{
+    // padding: 2em;
+    float: left;
+
+    h2{
+
+    }
+
+    input{
+      margin: 1em 2.3em 1em 0em;
+      width: 16.7em;
+      height: 2em;
+      padding: 0.3em;
+    }
+
+    textarea{
+      margin: 1em 0em 1em 0em;
+      padding: 0.3em;
+    }
+
+    button{
+      padding: 0.7em;
+      color: white;
+      background: #ff0000a1;
+      border-radius: 0.3em;
+      border: 0em solid white;
+      width: 8em;
+
+    }
+  }
+
+  .contactInfo{
+    // padding: 1em;
+    float: left;
+    width: 20%;
+
+    h2{
+      // margin: 0.5em;
+    }
+
+    p:nth-of-type(1) {
+      // margin: 1em;
+    }
+  }
+}
+
+map{
+  grid-column: 1/11;
+  background: skyblue;
+}
+
+section.sec2{
+  grid-column: 1/11;
+  padding: 3em;
+
+  .address{
+    width: 20%;
+    float: left;
+    padding: 4em;
+  }
+
+  .company{
+    width: 20%;
+    float: left;
+    padding: 1em;
+
+    ul{
+      padding-left: 1em;
+      margin: 0;
+
+      li{
+        padding-bottom: 1em;
+      }
+    }
+  }
+
+  .helpAndSupport{
+    width: 20%;
+    float: left;
+    padding: 1em;
+
+    ul{
+      padding-left: 1em;
+      margin: 0;
+
+      li{
+        padding-bottom: 1em;
+      }
+    }
+  }
+
+  .instagramWidget{
+    width: 20%;
+    float: left;
+    padding: 1em;
+  }
+
+}
+
+footer{
+  grid-column: 1/11;
+  background: #ff0000a1;
+  padding: 1em 7em 1em 7em;
+  color: white;
+
+  .copyright{
+    width: 50%;
+    float: left;
+  }
+
+  .followUs{
+    width: 50%;
+    float: left;
+  }
+
+  i{
+    padding: 0 0.5em 0 0.5em;
+  }
+}
+
+// --------------------Responsiveness----------------------------
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width:600px) {
+
+ }
+
+/* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width:768px) {
+
+ }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width:992px) {
+
+}

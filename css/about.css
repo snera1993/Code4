@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: ()[10];
+      grid-template-columns: repeat(10);
+  -ms-grid-rows: ()[11];
+      grid-template-rows: repeat(11);
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-family: 'Roboto';
+}
+
+nav {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  padding: 1em 1em 1em 3em;
+  background: white;
+}
+
+nav .logo {
+  width: 40%;
+  float: left;
+}
+
+nav .logo img {
+  width: 10em;
+}
+
+nav ul {
+  padding: 0.3em 0 0 0;
+  float: left;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-right: 2em;
+}
+
+nav .SearchBar {
+  float: left;
+  margin: 1.2em 0 0 9em;
+}
+
+nav .SearchBar input {
+  border: 0.1em solid #ff000082;
+  border-radius: 0.2em 0 0 0.2em;
+  padding: 0.2em;
+  border-right: 0;
+}
+
+nav button {
+  margin-left: -0.29em;
+  background: #ff0000a1;
+  color: white;
+  border: none;
+  height: 1.745em;
+  border-radius: 0 0.2em 0.2em 0;
+  width: 3em;
+}
+
+section.aboutUs {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  background: #80808063;
+  padding: 3em;
+  text-align: center;
+}
+
+section.aboutUs ul {
+  padding-left: 0;
+}
+
+section.aboutUs ul li {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 1em;
+}
+
+.welcomeToCompany {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  padding: 2em 10em 2em 10em;
+}
+
+.welcomeToCompany .ourServices {
+  width: 50%;
+  float: left;
+}
+
+.welcomeToCompany .ourServices h2 {
+  margin: 0;
+}
+
+.welcomeToCompany .ourServices button {
+  background: red;
+  border: 0 solid white;
+  padding: 0.3em 0.9em 0.3em 0.9em;
+  color: white;
+  border-radius: 0.2em;
+}
+
+.welcomeToCompany .picture {
+  width: 50%;
+  float: left;
+  padding: 2em;
+}
+
+.whoWeAre {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  background: skyblue;
+}
+
+.whoWeAre picture {
+  width: 50%;
+  float: left;
+}
+
+.whoWeAre .whoWeAreText {
+  width: 30%;
+  float: left;
+  padding: 2em 8em 2em 2em;
+}
+
+.whoWeAre .ourVision {
+  width: 40%;
+  float: left;
+  padding-right: 2em;
+}
+
+.meetOurTeam {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  background: yellow;
+  padding: 2em;
+}
+
+.logoSlide {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  color: white;
+  padding: 2em 0em 2em 0em;
+  background: black;
+}
+
+.logoSlide img {
+  width: 6.7em;
+  padding: 0em 1em 0em 1em;
+}
+
+section.sec2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  padding: 3em;
+}
+
+section.sec2 .address {
+  width: 20%;
+  float: left;
+  padding: 4em;
+}
+
+section.sec2 .company {
+  width: 20%;
+  float: left;
+  padding: 1em;
+}
+
+section.sec2 .company ul {
+  padding-left: 1em;
+  margin: 0;
+}
+
+section.sec2 .company ul li {
+  padding-bottom: 1em;
+}
+
+section.sec2 .helpAndSupport {
+  width: 20%;
+  float: left;
+  padding: 1em;
+}
+
+section.sec2 .helpAndSupport ul {
+  padding-left: 1em;
+  margin: 0;
+}
+
+section.sec2 .helpAndSupport ul li {
+  padding-bottom: 1em;
+}
+
+section.sec2 .instagramWidget {
+  width: 20%;
+  float: left;
+  padding: 1em;
+}
+
+footer {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  background: #ff0000a1;
+  padding: 1em 7em 1em 7em;
+  color: white;
+}
+
+footer .copyright {
+  width: 50%;
+  float: left;
+}
+
+footer .followUs {
+  width: 50%;
+  float: left;
+}
+
+footer i {
+  padding: 0 0.5em 0 0.5em;
+}
+/*# sourceMappingURL=about.css.map */
