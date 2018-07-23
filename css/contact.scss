@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
 body{
   display: grid;
   grid-template-columns: repeat(10);
@@ -8,7 +7,6 @@ body{
   margin: 0;
   font-family: "Roboto";
   font-size: 1em;
-  font-family: 'Roboto';
 }
 
 nav{
@@ -18,7 +16,7 @@ nav{
   background: white;
 
   .logo{
-    width: 40%;
+    width: 35%;
     float: left;
     img{
       width: 10em;
@@ -34,6 +32,16 @@ nav{
      display: inline-flex;
      padding-right: 2em;
    }
+
+   a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+ a:hover{
+   color: #ff000082;
+ }
+
   }
 
   .SearchBar{

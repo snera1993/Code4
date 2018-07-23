@@ -9,7 +9,6 @@ body {
   margin: 0;
   font-family: "Roboto";
   font-size: 1em;
-  font-family: 'Roboto';
 }
 
 nav {
@@ -24,7 +23,7 @@ nav {
 }
 
 nav .logo {
-  width: 40%;
+  width: 35%;
   float: left;
 }
 
@@ -43,6 +42,15 @@ nav ul li {
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding-right: 2em;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul a:hover {
+  color: #ff000082;
 }
 
 nav .SearchBar {

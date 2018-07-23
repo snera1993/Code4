@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
 body{
   display: grid;
   grid-template-columns: repeat(10);
@@ -8,7 +7,6 @@ body{
   margin: 0;
   font-family: "Roboto";
   font-size: 1em;
-  font-family: 'Roboto';
 }
 
 nav{
@@ -18,7 +16,7 @@ nav{
   background: white;
 
   .logo{
-    width: 40%;
+    width: 35%;
     float: left;
     img{
       width: 10em;
@@ -34,6 +32,15 @@ nav{
      display: inline-flex;
      padding-right: 2em;
    }
+
+   a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+ a:hover{
+   color: #ff000082;
+ }
   }
 
   .SearchBar{
@@ -88,6 +95,7 @@ section.aboutUs{
   .ourServices{
     width: 50%;
     float: left;
+    padding: 1em;
 
     h2{
       margin: 0;
@@ -96,33 +104,44 @@ section.aboutUs{
     button{
       background: red;
       border: 0 solid white;
-      padding: 0.3em 0.9em 0.3em 0.9em;
+      padding: 0.7em 2em 0.7em 2em;
       color: white;
       border-radius: 0.2em;
     }
   }
 
-  .picture{
-    width: 50%;
+  picture{
+    width: 40%;
     float: left;
     padding: 2em;
+    margin-top: 2em;
+
+    img{
+      width: 100%;
+    }
 
   }
 }
 
 .whoWeAre{
   grid-column: 1/11;
-  background: skyblue;
+  
 
   picture{
     width: 50%;
     float: left;
+
+    img{
+      width: 100%;
+      // height: 35em;
+    }
   }
 
   .whoWeAreText{
-    width: 30%;
+    width: 30.788%;
     float: left;
-    padding: 2em 8em 2em 2em;
+    padding: 0em 2em 3.5em 2em;
+    // background: pink;
   }
 
   .ourVision{
@@ -136,8 +155,84 @@ section.aboutUs{
 
 .meetOurTeam{
   grid-column: 1/11;
-  background: yellow;
+  padding: 2em 10em 2em 10em;
+
+  .person{
+    width: 45%;
+    float: left;
+    padding: 1em 0 1em 0;
+    margin: 0.2em;
+    height: 353.5px;
+
+    .image{
+      width: 45%;
+      float: left;
+      padding: 1em ;
+
+      img{
+        width: 100%;
+      }
+    }
+
+    .text{
+      padding: 1em;
+      width: 40%;
+      float: left;
+
+      h3{
+        margin: 0.5em 0 0.5em 0;
+      }
+
+      p{
+        margin: 0;
+      }
+    }
+  }
+}
+
+
+
+section.stats{
+  background: black;
+  grid-column: 1/11;
+
+
+  .eachStat{
+    color: white;
+    text-align: center;
+    width: 25%;
+    float: left;
+    // font-size: 2.7em;
+    h2{
+      margin: 1em 0 0.2em 0;
+      border-radius: 50%;
+    }
+    p{
+      margin: 0.5em 0 2em 0;
+    }
+  }
+}
+
+
+.subscribeToUs{
+  grid-column: 1/11;
   padding: 2em;
+  text-align: center;
+
+  input{
+    height: 1.5em;
+    width: 26em;
+    padding: 0.5em;
+  }
+
+  button{
+    height: 2.5em;
+    width: 8em;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+  }
 }
 
 

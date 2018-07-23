@@ -96,45 +96,68 @@ section.contactUs ul li {
   padding: 1em;
 }
 
-section.SendUsAMessage {
-  padding: 1em 10em 1em 10em;
-}
-
-section.SendUsAMessage .SendUs {
-  float: left;
-}
-
-section.SendUsAMessage .SendUs input {
-  margin: 1em 2.3em 1em 0em;
-  width: 16.7em;
-  height: 2em;
-  padding: 0.3em;
-}
-
-section.SendUsAMessage .SendUs textarea {
-  margin: 1em 0em 1em 0em;
-  padding: 0.3em;
-}
-
-section.SendUsAMessage .SendUs button {
-  padding: 0.7em;
-  color: white;
-  background: #ff0000a1;
-  border-radius: 0.3em;
-  border: 0em solid white;
-  width: 8em;
-}
-
-section.SendUsAMessage .contactInfo {
-  float: left;
-  width: 20%;
-}
-
-map {
+.ourAwesomePortfolio {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  background: skyblue;
+  background: white;
+  padding: 3em 15em 3em 15em;
+  text-align: center;
+}
+
+.iconsSection {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  padding: 1em;
+}
+
+.iconsSection .coding {
+  text-align: center;
+  padding: 2em;
+  width: 20%;
+  float: left;
+}
+
+.iconsSection .coding .icon img {
+  width: 5em;
+}
+
+.subscribeToUs {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  padding: 2em;
+  text-align: center;
+}
+
+.subscribeToUs input {
+  height: 1.5em;
+  width: 20em;
+  padding: 0.5em;
+}
+
+.subscribeToUs button {
+  height: 2.5em;
+  width: 8em;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 0.2em;
+}
+
+.logoSlide {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  color: white;
+  padding: 2em 0em 2em 0em;
+  background: black;
+}
+
+.logoSlide img {
+  width: 6.7em;
+  padding: 0em 1em 0em 1em;
 }
 
 section.sec2 {
@@ -208,8 +231,4 @@ footer .followUs {
 footer i {
   padding: 0 0.5em 0 0.5em;
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* Medium devices (landscape tablets, 768px and up) */
-/* Large devices (laptops/desktops, 992px and up) */
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=services.css.map */

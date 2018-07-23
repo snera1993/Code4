@@ -9,7 +9,6 @@ body {
   margin: 0;
   font-family: "Roboto";
   font-size: 1em;
-  font-family: 'Roboto';
 }
 
 nav {
@@ -24,7 +23,7 @@ nav {
 }
 
 nav .logo {
-  width: 40%;
+  width: 35%;
   float: left;
 }
 
@@ -43,6 +42,15 @@ nav ul li {
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding-right: 2em;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul a:hover {
+  color: #ff000082;
 }
 
 nav .SearchBar {
@@ -98,6 +106,7 @@ section.aboutUs ul li {
 .welcomeToCompany .ourServices {
   width: 50%;
   float: left;
+  padding: 1em;
 }
 
 .welcomeToCompany .ourServices h2 {
@@ -107,22 +116,26 @@ section.aboutUs ul li {
 .welcomeToCompany .ourServices button {
   background: red;
   border: 0 solid white;
-  padding: 0.3em 0.9em 0.3em 0.9em;
+  padding: 0.7em 2em 0.7em 2em;
   color: white;
   border-radius: 0.2em;
 }
 
-.welcomeToCompany .picture {
-  width: 50%;
+.welcomeToCompany picture {
+  width: 40%;
   float: left;
   padding: 2em;
+  margin-top: 2em;
+}
+
+.welcomeToCompany picture img {
+  width: 100%;
 }
 
 .whoWeAre {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  background: skyblue;
 }
 
 .whoWeAre picture {
@@ -130,10 +143,14 @@ section.aboutUs ul li {
   float: left;
 }
 
+.whoWeAre picture img {
+  width: 100%;
+}
+
 .whoWeAre .whoWeAreText {
-  width: 30%;
+  width: 30.788%;
   float: left;
-  padding: 2em 8em 2em 2em;
+  padding: 0em 2em 3.5em 2em;
 }
 
 .whoWeAre .ourVision {
@@ -146,8 +163,85 @@ section.aboutUs ul li {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  background: yellow;
+  padding: 2em 10em 2em 10em;
+}
+
+.meetOurTeam .person {
+  width: 45%;
+  float: left;
+  padding: 1em 0 1em 0;
+  margin: 0.2em;
+  height: 353.5px;
+}
+
+.meetOurTeam .person .image {
+  width: 45%;
+  float: left;
+  padding: 1em;
+}
+
+.meetOurTeam .person .image img {
+  width: 100%;
+}
+
+.meetOurTeam .person .text {
+  padding: 1em;
+  width: 40%;
+  float: left;
+}
+
+.meetOurTeam .person .text h3 {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.meetOurTeam .person .text p {
+  margin: 0;
+}
+
+section.stats {
+  background: black;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+}
+
+section.stats .eachStat {
+  color: white;
+  text-align: center;
+  width: 25%;
+  float: left;
+}
+
+section.stats .eachStat h2 {
+  margin: 1em 0 0.2em 0;
+  border-radius: 50%;
+}
+
+section.stats .eachStat p {
+  margin: 0.5em 0 2em 0;
+}
+
+.subscribeToUs {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
   padding: 2em;
+  text-align: center;
+}
+
+.subscribeToUs input {
+  height: 1.5em;
+  width: 26em;
+  padding: 0.5em;
+}
+
+.subscribeToUs button {
+  height: 2.5em;
+  width: 8em;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 0.2em;
 }
 
 .logoSlide {

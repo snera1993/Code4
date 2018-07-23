@@ -22,158 +22,190 @@ nav {
   background: white;
 }
 
-nav img {
-  width: 25em;
+nav .logo {
+  width: 35%;
+  float: left;
 }
 
-header {
+nav .logo img {
+  width: 10em;
+}
+
+nav ul {
+  padding: 0.3em 0 0 0;
+  float: left;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-right: 2em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li a:hover {
+  color: #ff000082;
+}
+
+nav .SearchBar {
+  float: left;
+  margin: 1.2em 0 0 9em;
+}
+
+nav .SearchBar input {
+  border: 0.1em solid #ff000082;
+  border-radius: 0.2em 0 0 0.2em;
+  padding: 0.2em;
+  border-right: 0;
+}
+
+nav button {
+  margin-left: -0.29em;
+  background: #ff0000a1;
+  color: white;
+  border: none;
+  height: 1.745em;
+  border-radius: 0 0.2em 0.2em 0;
+  width: 3em;
+}
+
+.codeForCapeTown {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-header div.codeForCapeTown {
-  text-align: center;
-  color: white;
-  background: #00000080;
-  border-radius: 0.5em;
-  margin: 5em 8em 1em 8em;
-  padding: 7em;
-}
-
-header div.StartCoding {
-  text-align: center;
-  margin: 4em 2em 8em 2em;
-}
-
-header div.StartCoding button {
-  width: 7em;
-  height: 2em;
-  color: white;
-  border: solid white 0.1em;
-  border-radius: 0.3em;
-  background: #00000000;
-  font-size: 3.5em;
-  padding: 0.5em 0.5em 1.6em 0.5em;
-}
-
-section.whoWeAre {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 10;
-  grid-column: 1/11;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3/4;
-}
-
-section.whoWeAre .text {
-  text-align: center;
-  padding: 4em;
-}
-
-section.whoWeAre .text p {
-  padding: 2em;
-}
-
-section.whoWeAre .pictures {
   padding: 3em;
-  margin: 4em;
-  background: pink;
-}
-
-section.whoWeAre .pictures img {
-  width: 100%;
-  height: 30em;
-  padding-top: 2em;
-}
-
-section.icons {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 10;
-  grid-column: 1/11;
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  grid-row: 4/5;
-}
-
-section.icons .codingIcon {
-  padding: 4em 1em 1em 1em;
-}
-
-section.icons .codingIcon img {
-  width: 15em;
-}
-
-section.icons .coding {
-  text-align: center;
-  padding: 2em 10em 4em 10em;
-}
-
-section.portfolio {
-  background: #e38f84;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 10;
-  grid-column: 1/11;
-  -ms-grid-row: 5;
-  -ms-grid-row-span: 1;
-  grid-row: 5/6;
   color: white;
-}
-
-section.portfolio .text {
   text-align: center;
-  padding: 4em 7em 4em 7em;
+  background-size: cover;
+  font-size: 1.5em;
 }
 
-section.portfolio .images {
-  padding: 2em;
+.codeForCapeTown .text {
+  background: #00000054;
+  padding: 1em;
+  margin: 2em 10em 2em 10em;
+  border-radius: 0.7em;
 }
 
-section.portfolio .images img {
-  width: 100%;
-  height: 40em;
-  border: 4px solid white;
+.codeForCapeTown button {
+  background: none;
+  color: white;
+  padding: 0.5em 2em 0.5em 2em;
+  font-size: 1em;
+  border-radius: 0.2em;
+  border: 0.1em solid white;
 }
 
-section.portfolio .images .bigImage {
-  padding: 2em 0 2em 0;
-}
-
-section.portfolio .images .bigImage img {
-  width: 100%;
-  height: 30em;
-}
-
-section.meetOurTeam {
+.whoWeAre {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  -ms-grid-row: 6;
-  -ms-grid-row-span: 1;
-  grid-row: 6/7;
+  padding: 1em 15em 1em 15em;
+  background: #ffc0cb9c;
 }
 
-section.meetOurTeam .topText {
+.whoWeAre .text {
+  width: 45%;
+  float: left;
+  padding: 1em;
+}
+
+.whoWeAre .text h2 {
+  border-bottom: 0.1em solid red;
+  margin: 0;
+  padding-bottom: 0.5em;
+}
+
+.whoWeAre picture {
+  width: 45%;
+  padding: 1em;
+  float: left;
+}
+
+.whoWeAre picture img {
+  width: 45%;
+  height: 10em;
+  padding: 0.5em;
+}
+
+.whoWeAre button {
+  background: red;
+  color: white;
+  border-radius: 0.2em;
+  padding: 0.5em 2em 0.5em 2em;
+  margin-top: 4em;
+}
+
+.iconsSection {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  padding: 1em;
+}
+
+.iconsSection .coding {
   text-align: center;
   padding: 2em;
+  width: 20%;
+  float: left;
 }
 
-section.meetOurTeam .images {
-  padding: 4em 2em 4em 2em;
+.iconsSection .coding .icon img {
+  width: 5em;
 }
 
-section.meetOurTeam .images hr {
-  margin-right: 50%;
-  border: 0.1em solid #e38f84;
+.ourAwesomePortfolio {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  background: pink;
+  padding: 3em 15em 3em 15em;
+  text-align: center;
 }
 
-section.meetOurTeam .images img {
+.meetOurTeam {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  padding: 2em 10em 2em 10em;
+}
+
+.meetOurTeam .person {
+  width: 45%;
+  float: left;
+  padding: 1em 0 1em 0;
+  margin: 0.2em;
+  height: 353.5px;
+}
+
+.meetOurTeam .person .image {
+  width: 45%;
+  float: left;
+  padding: 1em;
+}
+
+.meetOurTeam .person .image img {
   width: 100%;
+}
+
+.meetOurTeam .person .text {
+  padding: 1em;
+  width: 40%;
+  float: left;
+}
+
+.meetOurTeam .person .text h3 {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.meetOurTeam .person .text p {
+  margin: 0;
 }
 
 section.stats {
@@ -181,135 +213,130 @@ section.stats {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  -ms-grid-row: 7;
-  -ms-grid-row-span: 1;
-  grid-row: 7/8;
 }
 
 section.stats .eachStat {
   color: white;
   text-align: center;
-  width: 50%;
+  width: 25%;
   float: left;
-  font-size: 2.7em;
 }
 
 section.stats .eachStat h2 {
   margin: 1em 0 0.2em 0;
+  border-radius: 50%;
 }
 
 section.stats .eachStat p {
   margin: 0.5em 0 2em 0;
 }
 
-section.subscribeToUs {
+.subscribeToUs {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  -ms-grid-row: 8;
-  -ms-grid-row-span: 1;
-  grid-row: 8/9;
-  text-align: center;
-  padding: 2em 2em 5em 2em;
-}
-
-section.subscribeToUs p {
   padding: 2em;
+  text-align: center;
 }
 
-section.subscribeToUs input {
-  height: 1em;
-  width: 10em;
+.subscribeToUs input {
+  height: 1.5em;
+  width: 20em;
   padding: 0.5em;
-  font-size: 3.5em;
-  border: 0.1em solid grey;
 }
 
-section.subscribeToUs button {
-  height: 2em;
-  width: 7em;
-  margin: 1em;
-  font-size: 3.5em;
-  background: #f44336;
-  border-radius: 0.2em;
+.subscribeToUs button {
+  height: 2.5em;
+  width: 8em;
+  background: red;
   color: white;
-  -webkit-box-shadow: 0.2em 0.2em 0.8em black;
-          box-shadow: 0.2em 0.2em 0.8em black;
+  border: none;
+  border-radius: 0.2em;
 }
 
-section.logoSlide {
+.logoSlide {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  color: white;
+  padding: 2em 0em 2em 0em;
   background: black;
+}
+
+.logoSlide img {
+  width: 6.7em;
+  padding: 0em 1em 0em 1em;
+}
+
+section.sec2 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  -ms-grid-row: 9;
-  -ms-grid-row-span: 1;
-  grid-row: 9/10;
-  padding: 2em;
+  padding: 3em;
 }
 
-section.logoSlide img {
-  width: 18.5em;
-  height: 10em;
+section.sec2 .address {
+  width: 20%;
+  float: left;
+  padding: 4em;
 }
 
-section.contact {
-  background: pink;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 10;
-  grid-column: 1/11;
-  -ms-grid-row: 10;
-  -ms-grid-row-span: 1;
-  grid-row: 10/11;
+section.sec2 .company {
+  width: 20%;
+  float: left;
   padding: 1em;
-  font-size: 2em;
-  text-align: center;
 }
 
-section.contact .address {
-  text-align: center;
-  width: 50%;
-  float: left;
+section.sec2 .company ul {
+  padding-left: 1em;
+  margin: 0;
 }
 
-section.contact .company {
-  text-align: center;
-  width: 50%;
-  float: left;
+section.sec2 .company ul li {
+  padding-bottom: 1em;
 }
 
-section.contact .helpAndSupport {
-  text-align: center;
-  width: 50%;
+section.sec2 .helpAndSupport {
+  width: 20%;
   float: left;
+  padding: 1em;
 }
 
-section.contact .instagramWidget {
-  text-align: center;
-  width: 50%;
+section.sec2 .helpAndSupport ul {
+  padding-left: 1em;
+  margin: 0;
+}
+
+section.sec2 .helpAndSupport ul li {
+  padding-bottom: 1em;
+}
+
+section.sec2 .instagramWidget {
+  width: 20%;
   float: left;
+  padding: 1em;
 }
 
 footer {
-  background: #E91E63;
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  -ms-grid-row: 11;
-  -ms-grid-row-span: 1;
-  grid-row: 11/12;
+  background: #ff0000a1;
+  padding: 1em 7em 1em 7em;
   color: white;
-  padding: 0 2em 0 2em;
-  font-size: 2.5em;
 }
 
-footer p {
-  float: left;
+footer .copyright {
   width: 50%;
-  margin: 1em 0 1em 0;
+  float: left;
 }
 
-footer img {
-  width: 2em;
+footer .followUs {
+  width: 50%;
+  float: left;
+}
+
+footer i {
+  padding: 0 0.5em 0 0.5em;
 }
 /*# sourceMappingURL=index.css.map */
